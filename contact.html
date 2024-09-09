@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Kopi Kenangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+            <img src="logo.png" alt="Kopi Kenangan" class="imgKopi"></a>
+            <nav>
+                <ul>
+                    <li><a href="LKPD3.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <h2>Hubungi Kami</h2>
+    </div>
+
+    <main class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Alamat</h3>
+                    <p>Jl. Raya Kopi No.123, Jakarta, Indonesia</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Telepon</h3>
+                    <p>+62 21 1234 5678</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>info@kopikenangan.com</p>
+                </div>
+            </div>
+
+            <form action="submit_form.php" method="post" class="contact-form">
+                <h2>Formulir Kontak</h2>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kopi Kenangan. Semua hak cipta dilindungi.</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
